@@ -120,7 +120,7 @@ nav ul li a {
 }
 
 .banner-profile-pic {
-  width: 580px;
+  width: 500px;
 }
 
 /* main styles */
@@ -231,11 +231,41 @@ textarea {
 /* resposive */
 
 @media screen and (max-width: 576px) {
+  .banner,
   .skills-container,
   .resume-container,
-   footer,
+  footer,
+  nav,
+  nav > ul,
   .about-items {
     flex-direction: column;
+  }
+
+  nav > ul{
+    gap: 20px;
+  }
+
+  .btn-primary{
+    margin-bottom: 20px;
+  }
+
+  .b-description{
+    width: 100%;
+  }
+
+  .banner {
+    margin: 20px;
+  }
+
+  .banner-profile-pic {
+    width: 100%;
+  }
+
+  /* .btn-primary{
+width: 100%;
+} */
+  .header {
+    background-image: none;
   }
 
   footer,
